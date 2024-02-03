@@ -18,7 +18,7 @@ function send_block_data(res, block, txs, title_text, orphan) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'RAIA Network' + ' ' + title_text
+      page_title_prefix: 'Wagyucoin' + ' ' + title_text
     }
   );
 }
@@ -36,7 +36,7 @@ function send_tx_data(res, tx, blockcount, orphan) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'RAIA Network' + ' ' + 'Transaction ' + tx.txid
+      page_title_prefix: 'Wagyucoin' + ' ' + 'Transaction ' + tx.txid
     }
   );
 }
@@ -52,7 +52,7 @@ function send_address_data(res, address, claim_name) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'RAIA Network' + ' ' + 'Address ' + (claim_name == null || claim_name == '' ? address.a_id : claim_name)
+      page_title_prefix: 'Wagyucoin' + ' ' + 'Address ' + (claim_name == null || claim_name == '' ? address.a_id : claim_name)
     }
   );
 }
@@ -68,7 +68,7 @@ function send_claimaddress_data(res, hash, claim_name) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'RAIA Network' + ' Claim Wallet Address' + (hash == null || hash == '' ? '' : ' ' + hash)
+      page_title_prefix: 'Wagyucoin' + ' Claim Wallet Address' + (hash == null || hash == '' ? '' : ' ' + hash)
     }
   );
 }
@@ -290,7 +290,7 @@ function route_get_txlist(res, error) {
         customHash: get_custom_hash(),
         styleHash: get_style_hash(),
         themeHash: get_theme_hash(),
-        page_title_prefix: 'RAIA Network' + ' ' + 'Block Explorer'
+        page_title_prefix: 'Wagyucoin' + ' ' + 'Block Explorer'
       }
     );
   });
@@ -351,7 +351,7 @@ router.get('/info', function(req, res) {
         customHash: get_custom_hash(),
         styleHash: get_style_hash(),
         themeHash: get_theme_hash(),
-        page_title_prefix: 'RAIA Network' + ' Public API'
+        page_title_prefix: 'Wagyucoin' + ' Public API'
       }
     );
   } else {
@@ -457,7 +457,7 @@ router.get('/richlist', function(req, res) {
                 customHash: get_custom_hash(),
                 styleHash: get_style_hash(),
                 themeHash: get_theme_hash(),
-                page_title_prefix: 'Top ' + 'RAIA Network' + ' Coin Holders'
+                page_title_prefix: 'Top ' + 'Wagyucoin' + ' Coin Holders'
               }
             );
           });
@@ -487,7 +487,7 @@ router.get('/movement', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'RAIA Network' + ' ' + 'Coin Movements'
+          page_title_prefix: 'Wagyucoin' + ' ' + 'Coin Movements'
         }
       );
     });
@@ -511,7 +511,7 @@ router.get('/network', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'RAIA Network' + ' ' + 'Network Peers'
+          page_title_prefix: 'Wagyucoin' + ' ' + 'Network Peers'
         }
       );
     });
@@ -536,7 +536,7 @@ router.get('/masternodes', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'RAIA Network' + ' ' + 'Masternodes'
+          page_title_prefix: 'Wagyucoin' + ' ' + 'Masternodes'
         }
       );
     });
@@ -577,7 +577,7 @@ router.get('/reward', function(req, res) {
             customHash: get_custom_hash(),
             styleHash: get_style_hash(),
             themeHash: get_theme_hash(),
-            page_title_prefix: 'RAIA Network' + ' Reward/Voting Details'
+            page_title_prefix: 'Wagyucoin' + ' Reward/Voting Details'
           }
         );
       });
