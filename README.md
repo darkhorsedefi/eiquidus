@@ -1,4 +1,4 @@
-# RAIA Network Explorer
+# CmusicAI Explorer
 
 Table of Contents
 ------------------
@@ -936,7 +936,7 @@ This warning is currently displayed when starting or stopping the explorer using
 
 ### License
 
-Copyright (c) 2024-2024, The RAIA Network Community<br />
+Copyright (c) 2024-2024, The CmusicAI Community<br />
 Copyright (c) 2019-2023, The Exor Community<br />
 Copyright (c) 2017, The Chaincoin Community<br />
 Copyright (c) 2015, Iquidus Technology<br />
