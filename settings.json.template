@@ -287,7 +287,7 @@
         "spacer_panel_1": {
           // enabled: Enable/disable the spacer panel (true/false)
           //          If set to false, the spacer panel will be completely inaccessible
-          "enabled": true,
+          "enabled": false,
           // display_order: Determine which order this panel is shown from 1-5
           //                1 = far left panel, 5 = far right panel
           //                The panel will be disabled with a value of 0
@@ -1436,9 +1436,9 @@
     // getvotelist: Returns an object with details regarding the current vote list
     "getvotelist": "masternodelist votes",
     // getmasternodecount: Returns a json object containing the total number of masternodes on the network
-    "getmasternodecount": "getmasternodecount",
+    "getmasternodecount": "smartnode count",
     // getmasternodelist: Returns a json array containing status information for all masternodes on the network
-    "getmasternodelist": "listmasternodes",
+    "getmasternodelist": "smartnode list",
     // verifymessage: Verify a signed message. Must accept the following arguments:
     //                address: The wallet address to use for the signature
     //                signature: The signature provided by the signer in base 64 encoding
