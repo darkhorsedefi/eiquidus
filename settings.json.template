@@ -26,7 +26,7 @@
     // host: The hostname or ip address of the wallet to connect to (default: localhost)
     "host": "localhost",
     // port: The port # that the wallet is configured to listen for RPC requests on (default: 51573 for Exor wallet)
-    "port": 51573,
+    "port": 9819,
     // username: The wallet RPC username
     "username": "USERNAME",
     // password: The wallet RPC password
@@ -79,7 +79,7 @@
     //       NOTE: This value acts as a unique identifier for data stored in mongo and therefore cannot be changed without re-syncing all existing data.
     "name": "XenixChain",
     // symbol: The cryptocurrency coin ticker/symbol value. This value is displayed anywhere that coin data is displayed including the index, address, block, movement, reward, richlist/top100 and tx pages
-    "symbol": "XXNC"
+    "symbol": "XNXI"
   },
 
   // network_history: a collection of settings that controls saving of extra historical network data during a block sync
