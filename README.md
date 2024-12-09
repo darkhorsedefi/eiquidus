@@ -1,4 +1,4 @@
-# Antero Coin Explorer
+# Bitcoin Free Explorer
 
 Table of Contents
 ------------------
@@ -287,7 +287,7 @@ exit
 #### Download Source Code
 
 ```
-git clone https://github.com/AnteroCoin/explorer
+git clone https://github.com/bitcoinfree/explorer
 ```
 
 #### Install Node Modules
@@ -936,7 +936,7 @@ This warning is currently displayed when starting or stopping the explorer using
 
 ### License
 
-Copyright (c) 2024-2024, The Antero Coin Community<br />
+Copyright (c) 2024-2024, The Bitcoin Free Community<br />
 Copyright (c) 2019-2023, The Exor Community<br />
 Copyright (c) 2017, The Chaincoin Community<br />
 Copyright (c) 2015, Iquidus Technology<br />

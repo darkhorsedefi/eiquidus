@@ -18,7 +18,7 @@ function send_block_data(res, block, txs, title_text, orphan) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'Antero Coin' + ' ' + title_text
+      page_title_prefix: 'Bitcoin Free' + ' ' + title_text
     }
   );
 }
@@ -36,7 +36,7 @@ function send_tx_data(res, tx, blockcount, orphan) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'Antero Coin' + ' ' + 'Transaction ' + tx.txid
+      page_title_prefix: 'Bitcoin Free' + ' ' + 'Transaction ' + tx.txid
     }
   );
 }
@@ -52,7 +52,7 @@ function send_address_data(res, address, claim_name) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'Antero Coin' + ' ' + 'Address ' + (claim_name == null || claim_name == '' ? address.a_id : claim_name)
+      page_title_prefix: 'Bitcoin Free' + ' ' + 'Address ' + (claim_name == null || claim_name == '' ? address.a_id : claim_name)
     }
   );
 }
@@ -68,7 +68,7 @@ function send_claimaddress_data(res, hash, claim_name) {
       customHash: get_custom_hash(),
       styleHash: get_style_hash(),
       themeHash: get_theme_hash(),
-      page_title_prefix: 'Antero Coin' + ' Claim Wallet Address' + (hash == null || hash == '' ? '' : ' ' + hash)
+      page_title_prefix: 'Bitcoin Free' + ' Claim Wallet Address' + (hash == null || hash == '' ? '' : ' ' + hash)
     }
   );
 }
@@ -290,7 +290,7 @@ function route_get_txlist(res, error) {
         customHash: get_custom_hash(),
         styleHash: get_style_hash(),
         themeHash: get_theme_hash(),
-        page_title_prefix: 'Antero Coin' + ' ' + 'Block Explorer'
+        page_title_prefix: 'Bitcoin Free' + ' ' + 'Block Explorer'
       }
     );
   });
@@ -351,7 +351,7 @@ router.get('/info', function(req, res) {
         customHash: get_custom_hash(),
         styleHash: get_style_hash(),
         themeHash: get_theme_hash(),
-        page_title_prefix: 'Antero Coin' + ' Public API'
+        page_title_prefix: 'Bitcoin Free' + ' Public API'
       }
     );
   } else {
@@ -457,7 +457,7 @@ router.get('/richlist', function(req, res) {
                 customHash: get_custom_hash(),
                 styleHash: get_style_hash(),
                 themeHash: get_theme_hash(),
-                page_title_prefix: 'Top ' + 'Antero Coin' + ' Coin Holders'
+                page_title_prefix: 'Top ' + 'Bitcoin Free' + ' Coin Holders'
               }
             );
           });
@@ -487,7 +487,7 @@ router.get('/movement', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'Antero Coin' + ' ' + 'Coin Movements'
+          page_title_prefix: 'Bitcoin Free' + ' ' + 'Coin Movements'
         }
       );
     });
@@ -511,7 +511,7 @@ router.get('/network', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'Antero Coin' + ' ' + 'Network Peers'
+          page_title_prefix: 'Bitcoin Free' + ' ' + 'Network Peers'
         }
       );
     });
@@ -536,7 +536,7 @@ router.get('/masternodes', function(req, res) {
           customHash: get_custom_hash(),
           styleHash: get_style_hash(),
           themeHash: get_theme_hash(),
-          page_title_prefix: 'Antero Coin' + ' ' + 'Masternodes'
+          page_title_prefix: 'Bitcoin Free' + ' ' + 'Masternodes'
         }
       );
     });
@@ -577,7 +577,7 @@ router.get('/reward', function(req, res) {
             customHash: get_custom_hash(),
             styleHash: get_style_hash(),
             themeHash: get_theme_hash(),
-            page_title_prefix: 'Antero Coin' + ' Reward/Voting Details'
+            page_title_prefix: 'Bitcoin Free' + ' Reward/Voting Details'
           }
         );
       });
