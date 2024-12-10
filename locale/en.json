@@ -39,8 +39,8 @@
   "menu_orphans": "Orphaned Blocks",
 
   // explorer view
-  "ex_title": "Bitcoin Free Block Explorer",
-  "ex_description": "A listing of all verified Bitcoin Free transactions",
+  "ex_title": "Nullion Block Explorer",
+  "ex_description": "A listing of all verified Nullion transactions",
   "ex_search_title": "Search",
   "ex_search_button": "Search",
   "ex_search_message": "Search by block height, block hash, tx hash or address",
@@ -53,8 +53,8 @@
   "ex_block": "Block",
 
   // transaction view
-  "tx_title": "Bitcoin Free Transaction Details",
-  "tx_description": "Viewing tx data from Bitcoin Free block # {2}",
+  "tx_title": "Nullion Transaction Details",
+  "tx_description": "Viewing tx data from Nullion block # {2}",
   "tx_block_hash": "Block Hash",
   "tx_recipients": "Recipients",
   "tx_contributors": "Input Addresses",
@@ -65,8 +65,8 @@
   "view_block": "View Block",
 
   // block view
-  "block_title": "Bitcoin Free Block Details",
-  "block_description": "Viewing block data from Bitcoin Free block # {2}",
+  "block_title": "Nullion Block Details",
+  "block_description": "Viewing block data from Nullion block # {2}",
   "block_previous": "Previous Block",
   "block_next": "Next Block",
   "block_genesis": "GENESIS",
@@ -74,30 +74,30 @@
   "view_tx": "View Transaction",
 
   // error view
-  "error_title": "Bitcoin Free Block Explorer Error",
+  "error_title": "Nullion Block Explorer Error",
   "error_description": "The page you are looking for cannot be found",
   "error_description_alt": "An error occurred which prevented the page from loading correctly",
 
   // address view
-  "a_title": "Bitcoin Free Wallet Address Details",
-  "a_description": "Viewing balance and transaction data from Bitcoin Free address {2}",
+  "a_title": "Nullion Wallet Address Details",
+  "a_description": "Viewing balance and transaction data from Nullion address {2}",
   "a_menu_showing": "Showing last",
   "a_menu_txs": "transactions",
   "a_menu_all": "All",
   "a_qr": "QR Code",
 
   // masternode view
-  "mn_title": "Bitcoin Free Masternodes",
-  "mn_description": "A listing of all masternodes known to be active on the Bitcoin Free network",
+  "mn_title": "Nullion Masternodes",
+  "mn_description": "A listing of all masternodes known to be active on the Nullion network",
   "mn_masternode_list": "Masternode List",
 
   // movement view
-  "move_title": "Bitcoin Free Coin Movements",
-  "move_description": "A listing of larger movements where Bitcoin Free or more {2} coins were sent in a single transaction",
+  "move_title": "Nullion Coin Movements",
+  "move_description": "A listing of larger movements where Nullion or more {2} coins were sent in a single transaction",
 
   // richlist view
-  "rl_title": "Top Bitcoin Free Coin Holders",
-  "rl_description": "A listing of the richest Bitcoin Free wallet addresses and breakdown of the current coin distribution",
+  "rl_title": "Top Nullion Coin Holders",
+  "rl_description": "A listing of the richest Nullion wallet addresses and breakdown of the current coin distribution",
   "rl_received_coins": "Top 100 - Received Coins",
   "rl_current_balance": "Top 100 - Current Balance",
   "rl_received": "Received",
@@ -110,8 +110,8 @@
   "rl_hundredplus": "101+",
 
   // network view
-  "net_title": "Bitcoin Free Network Peers",
-  "net_description": "A listing of Bitcoin Free network peers that have connected to the explorer node in the last 24 hours",
+  "net_title": "Nullion Network Peers",
+  "net_description": "A listing of Nullion network peers that have connected to the explorer node in the last 24 hours",
   "net_addnodes": "Add Nodes",
   "net_connections": "Connections",
   "net_address": "Address",
@@ -120,8 +120,8 @@
   "net_country": "Country",
 
   // api view
-  "api_title": "Bitcoin Free Public API",
-  "api_description": "A listing of public API endpoints for retrieving Bitcoin Free coin data from the network without the need for a local wallet",
+  "api_title": "Nullion Public API",
+  "api_description": "A listing of public API endpoints for retrieving Nullion coin data from the network without the need for a local wallet",
   "api_documentation": "API Documentation",
   "api_calls": "API Calls",
   "api_getnetworkhashps": "Returns the current network hashrate. (hash/s)",
@@ -144,8 +144,8 @@
   "api_getnextrewardwhenstr": "Returns a string describing how long until the votes are tallied and the next block reward is computed.",
 
   // markets view
-  "mkt_title": "Bitcoin Free Market Details",
-  "mkt_description": "Viewing Bitcoin Free market data for the {2} exchange",
+  "mkt_title": "Nullion Market Details",
+  "mkt_description": "Viewing Nullion market data for the {2} exchange",
   "mkt_hours": "24 hours",
   "mkt_view_chart": "View 24 hour summary",
   "mkt_view_summary": "View 24 hour chart",
@@ -170,11 +170,11 @@
   "mkt_unexpected_api_data": "Received unexpected API data response",
 
   // claim address view
-  "claim_title": "Bitcoin Free Wallet Address Claim",
-  "claim_description": "Verify ownership of your Bitcoin Free wallet address and set a custom display name in the explorer",
+  "claim_title": "Nullion Wallet Address Claim",
+  "claim_description": "Verify ownership of your Nullion wallet address and set a custom display name in the explorer",
 
   // orphans view
-  "orphan_title": "Bitcoin Free Orphaned Blocks",
+  "orphan_title": "Nullion Orphaned Blocks",
   "orphan_description": "A listing of valid blocks that have been orphaned and do not belong to the main blockchain",
   "orphan_block_list": "Orphaned Block List",
   "orphan_block_hash": "Orphaned Block Hash",
@@ -184,8 +184,8 @@
   "view_orphan": "View Orphaned Block",
 
   // heavycoin rewards view
-  "heavy_title": "Bitcoin Free Reward/Voting Details",
-  "heavy_description": "Viewing Bitcoin Free voting data and coin reward change details",
+  "heavy_title": "Nullion Reward/Voting Details",
+  "heavy_description": "Viewing Nullion voting data and coin reward change details",
   "heavy_reward_voting_info": "Reward/voting information",
   "heavy_vote": "Vote",
   "heavy_cap": "Coin Cap",
