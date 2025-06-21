@@ -13,7 +13,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
 :root {
-  --bs-blue: #eb6864;
+  --bs-blue: #d32321;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #e83e8c;
@@ -35,7 +35,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #333;
   --bs-gray-900: #222;
-  --bs-primary: #eb6864;
+  --bs-primary: #d32321;
   --bs-secondary: #aaa;
   --bs-success: #22b24c;
   --bs-info: #369;
@@ -242,7 +242,7 @@ sup {
 }
 
 a {
-  color: #eb6864;
+  color: #d32321;
   text-decoration: underline;
 }
 
@@ -2471,8 +2471,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2484,8 +2484,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -2576,7 +2576,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #eb6864;
+  background-color: #d32321;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2609,7 +2609,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #eb6864;
+  background-color: #d32321;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3083,8 +3083,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .btn-primary:hover {
@@ -3116,8 +3116,8 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .btn-secondary {
@@ -3394,14 +3394,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #eb6864;
-  border-color: #eb6864;
+  color: #d32321;
+  border-color: #d32321;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
@@ -3411,8 +3411,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
@@ -3421,7 +3421,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #eb6864;
+  color: #d32321;
   background-color: transparent;
 }
 
@@ -3651,7 +3651,7 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #eb6864;
+  color: #d32321;
   text-decoration: underline;
 }
 
@@ -3984,7 +3984,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #eb6864;
+  background-color: #d32321;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4029,7 +4029,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #eb6864;
+  background-color: #d32321;
 }
 
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
@@ -4178,7 +4178,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #eb6864;
+  color: #d32321;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4244,7 +4244,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #eb6864;
+  background-color: #d32321;
 }
 
 .nav-fill > .nav-link,
@@ -5197,7 +5197,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #eb6864;
+  color: #d32321;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -5213,8 +5213,8 @@ fieldset:disabled .btn {
 .page-link:hover {
   z-index: 2;
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .page-link:focus {
@@ -5232,8 +5232,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .page-item.disabled .page-link {
@@ -5450,7 +5450,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #eb6864;
+  background-color: #d32321;
   transition: width 0.6s ease;
 }
 
@@ -5544,8 +5544,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #eb6864;
-  border-color: #eb6864;
+  background-color: #d32321;
+  border-color: #d32321;
 }
 
 .list-group-item + .list-group-item {
@@ -7024,7 +7024,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-  color: #eb6864;
+  color: #d32321;
 }
 
 .link-primary:hover, .link-primary:focus {
@@ -7506,7 +7506,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-  border-color: #eb6864 !important;
+  border-color: #d32321 !important;
 }
 
 .border-secondary {

@@ -100,7 +100,7 @@
     // theme: Change the look & feel of the explorer with a unique theme. Uses bootswatch themes (https://bootswatch.com)
     //        Valid options: Cerulean, Cosmo, Cyborg, Darkly, Exor, Flatly, Journal, Litera, Lumen, Lux, Materia, Minty, Morph, Pulse, Quartz, Sandstone, Simplex, Sketchy, Slate, Solar, Spacelab, Superhero, United, Vapor, Yeti, Zephyr
     //        (see /public/css/themes for available themes)
-    "theme": "Lux",
+    "theme": "Journal",
     // page_title: The text to display at the end of the HTML title tag and also displayed in the page header when the "shared_pages.page_header.home_link" setting is set to "title"
     "page_title": "World Raott Coins",
     // favicons: a collection of image or icon files that are displayed in a browser window/tab and serve as branding for your website. Their main purpose is to help visitors locate your page easier when they have multiple tabs open
@@ -190,7 +190,7 @@
           // display_order: Determine which order this panel is shown from 1-5
           //                1 = far left panel, 5 = far right panel
           //                The panel will be disabled with a value of 0
-          "display_order": 1,
+          "display_order": 4,
           // nethash: Determine how to acquire network hashrate. Valid options:
           //          getnetworkhashps: retrieved from getnetworkhashps rpc cmd
           //          netmhashps: retrieved from getmininginfo rpc cmd
@@ -212,7 +212,7 @@
           // display_order: Determine which order this panel is shown from 1-5
           //                1 = far left panel, 5 = far right panel
           //                The panel will be disabled with a value of 0
-          "display_order": 2
+          "display_order": 5
         },
         // masternodes_panel: a collection of settings that pertain to the masternode panel which displays a count of online and unreachable masternodes (only applicable to masternode coins)
         "masternodes_panel": {
@@ -289,11 +289,11 @@
         "spacer_panel_1": {
           // enabled: Enable/disable the spacer panel (true/false)
           //          If set to false, the spacer panel will be completely inaccessible
-          "enabled": false,
+          "enabled": true,
           // display_order: Determine which order this panel is shown from 1-5
           //                1 = far left panel, 5 = far right panel
           //                The panel will be disabled with a value of 0
-          "display_order": 0
+          "display_order": 2
         },
         // spacer_panel_2: a collection of settings that pertain to the 2nd spacer panel which allows inserting a blank space into the top panels
         //                 NOTE: spacer panels are only visible on desktop and tablet screen sizes and are hidden on mobile screens
@@ -869,7 +869,7 @@
   "movement_page": {
     // enabled: Enable/disable the movement page (true/false)
     //          If set to false, the movement page will be completely inaccessible
-    "enabled": true,
+    "enabled": false,
     // show_panels: Determine whether to show the panels configured in the shared_pages.page_header section across the top of this page (true/false)
     "show_panels": false,
     // show_nethash_chart: Determine whether to show the network hashrate chart configured in the shared_pages.network_charts.nethash_chart section across the top of this page (true/false)
@@ -1472,7 +1472,7 @@
   "orphans_page": {
     // enabled: Enable/disable the orphans page (true/false)
     //          If set to false, the orphans page will be completely inaccessible
-    "enabled": true,
+    "enabled": false,
     // show_panels: Determine whether to show the panels configured in the shared_pages.page_header section across the top of this page (true/false)
     "show_panels": false,
     // show_nethash_chart: Determine whether to show the network hashrate chart configured in the shared_pages.network_charts.nethash_chart section across the top of this page (true/false)
